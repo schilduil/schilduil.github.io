@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://www.schilduil.org/java/supi/stable/dist/" href="launch.jnlp">
+    <information>
+        <title>Schilduil Proc Inbreeding</title>
+        <vendor>Schilduil Software Team</vendor>
+        <description>A calculator of inbreedingcoefficients and additive genetic relationships.</description>
+        <description kind="short">Schilduil Proc Inbreeding</description>
+        <homepage href="http://www.schilduil.org/java/supi/"/>
+        <icon href="splash_001.png" kind="splash"/>
+        <offline-allowed/>
+        <shortcut online="false">
+          <desktop/>
+          <menu submenu="Schilduil"/>
+        </shortcut>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.5+"/>
+        <jar href="SuProcInbreeding.jar" main="true" download="eager"/>
+        <jar href="lib/appframework-1.0.3.jar" download="eager"/>
+        <jar href="lib/swing-worker-1.1.jar" download="eager"/>
+    </resources>
+    <application-desc main-class="org.schilduil.procinbreeding.SuProcInbreedingApp">
+    </application-desc>
+</jnlp>

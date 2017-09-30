@@ -1,0 +1,1251 @@
+
+* {
+        PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-TOP: 0px;
+}
+
+HTML {
+	BORDER-TOP: 0px;
+	BORDER-LEFT: 0px;
+  BORDER-RIGHT: 0px;
+	BORDER-BOTTOM: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	BACKGROUND: rgb(255,255,255);
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	COLOR: rgb(64,32,32);
+	PADDING-TOP: 0px;
+	FONT-FAMILY: Palatino Linotype, Tahoma, Bitstream Vera Sans, Verdana, Arial, Georgia, Sans Serif;
+	MARGIN: 0px;
+}
+
+.print {
+  display: none;
+}
+
+BODY {
+
+	BACKGROUND: rgb(255,255,255);
+  BORDER: 0px;
+	PADDING: 0px;
+	MARGIN: 0px;
+
+}
+
+A {
+  TEXT-DECORATION: underline;
+}
+
+A:hover {
+  COLOR: blue;
+	TEXT-DECORATION: underline;
+}
+
+INPUT {
+  BORDER-RIGHT: 1px solid;
+	BORDER-TOP: 1px solid;
+	BORDER-LEFT: 1px solid;
+	BORDER-BOTTOM: 1px solid;
+}
+
+P {
+  PADDING-TOP: 5px;
+  PADDING-BOTTOM: 10px;
+}
+
+UL {
+  PADDING-LEFT: 15pt;
+	LIST-STYLE-POSITION: outside;
+}
+
+#content {
+  BORDER: 0px;
+	PADDING: 0px;
+	MARGIN: 0px;
+}
+
+#middle {
+	MARGIN: 0px;
+  WIDTH: 100%;
+}
+
+#header {
+	MARGIN: 0px;
+  FONT-SIZE: 50px;
+	BACKGROUND: red;
+	TEXT-ALIGN: center;
+}
+
+#header .subtitle {
+  FONT-SIZE: 20px;
+  FONT-FAMILY: fantasy;
+}
+
+#left {
+	MARGIN: 0px;
+  BORDER-RIGHT: 0px solid;
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 0px;
+	VERTICAL-ALIGN: top;
+	WIDTH: 173px;
+	PADDING-TOP: 20px;
+}
+
+#left A {
+  PADDING-RIGHT: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-BOTTOM: 2px;
+	COLOR: rgb(64,32,32);
+	PADDING-TOP: 2px;
+	FONT-VARIANT: small-caps;
+	TEXT-DECORATION: none;
+}
+
+#left A:hover {
+	TEXT-DECORATION: underline;
+}
+
+#body {
+	MARGIN: 0px;
+  PADDING-RIGHT: 10px;
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 10px;
+	VERTICAL-ALIGN: top;
+	WIDTH: auto;
+	PADDING-TOP: 10px;
+}
+
+.border TD {
+  BORDER-RIGHT: 1px solid;
+	BORDER-TOP: 1px solid;
+	BORDER-LEFT: 1px solid;
+	BORDER-BOTTOM: 1px solid;
+}
+
+#right {
+  PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 5px;
+	VERTICAL-ALIGN: top;
+	BORDER-LEFT: 0px solid;
+	WIDTH: 20%;
+	PADDING-TOP: 20px;
+}
+
+.block {
+  PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 5px;
+	PADDING-TOP: 5px;
+  BACKGROUND: rgb(211,162,137);
+  BORDER: 1px solid;
+}
+
+#footer {
+  PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	BACKGROUND: red;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	TEXT-ALIGN: right;
+}
+
+#footer A {
+  TEXT-DECORATION: none;
+}
+
+#footer A {
+	COLOR: rgb(64,32,32);
+	FONT-VARIANT: small-caps;
+	TEXT-DECORATION: none;
+}
+
+#footer A:hover {
+	TEXT-DECORATION: underline;
+}
+
+
+
+.title {
+  FONT-WEIGHT: bold;
+	FONT-VARIANT: small-caps; TEXT-DECORATION: underline;
+}
+
+.title:first-letter {
+  BACKGROUND: yellow;
+}
+
+.menu1_1 {
+
+	margin: 5px;
+	margin-left: 0px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu1_2 {
+
+	margin: 5px;
+	margin-left: 20px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu1_3 {
+
+	margin: 5px;
+	margin-left: 40px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu1_4 {
+
+	margin: 5px;
+	margin-left: 60px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu1_5 {
+
+	margin: 5px;
+	margin-left: 80px;
+        background: url("tk_pointer_5_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu1_6 {
+
+	margin: 5px;
+	margin-left: 100px;
+        background: url("tk_pointer_6_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu1_7 {
+
+	margin: 5px;
+	margin-left: 120px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu1_8 {
+
+	margin: 5px;
+	margin-left: 140px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu1_9 {
+
+	margin: 5px;
+	margin-left: 160px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu1_10 {
+
+	margin: 5px;
+	margin-left: 180px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu2_1 {
+
+	margin: 5px;
+	margin-left: 0px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu2_2 {
+
+	margin: 5px;
+	margin-left: 20px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu2_3 {
+
+	margin: 5px;
+	margin-left: 40px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu2_4 {
+
+	margin: 5px;
+	margin-left: 60px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu2_5 {
+
+	margin: 5px;
+	margin-left: 80px;
+        background: url("tk_pointer_5_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu2_6 {
+
+	margin: 5px;
+	margin-left: 100px;
+        background: url("tk_pointer_6_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu2_7 {
+
+	margin: 5px;
+	margin-left: 120px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu2_8 {
+
+	margin: 5px;
+	margin-left: 140px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu2_9 {
+
+	margin: 5px;
+	margin-left: 160px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu2_10 {
+
+	margin: 5px;
+	margin-left: 180px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu3_1 {
+
+	margin: 5px;
+	margin-left: 0px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu3_2 {
+
+	margin: 5px;
+	margin-left: 20px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu3_3 {
+
+	margin: 5px;
+	margin-left: 40px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu3_4 {
+
+	margin: 5px;
+	margin-left: 60px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu3_5 {
+
+	margin: 5px;
+	margin-left: 80px;
+        background: url("tk_pointer_5_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu3_6 {
+
+	margin: 5px;
+	margin-left: 100px;
+        background: url("tk_pointer_6_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu3_7 {
+
+	margin: 5px;
+	margin-left: 120px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu3_8 {
+
+	margin: 5px;
+	margin-left: 140px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu3_9 {
+
+	margin: 5px;
+	margin-left: 160px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu3_10 {
+
+	margin: 5px;
+	margin-left: 180px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu4_1 {
+
+	margin: 5px;
+	margin-left: 0px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu4_2 {
+
+	margin: 5px;
+	margin-left: 20px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu4_3 {
+
+	margin: 5px;
+	margin-left: 40px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu4_4 {
+
+	margin: 5px;
+	margin-left: 60px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu4_5 {
+
+	margin: 5px;
+	margin-left: 80px;
+        background: url("tk_pointer_5_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu4_6 {
+
+	margin: 5px;
+	margin-left: 100px;
+        background: url("tk_pointer_6_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu4_7 {
+
+	margin: 5px;
+	margin-left: 120px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu4_8 {
+
+	margin: 5px;
+	margin-left: 140px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu4_9 {
+
+	margin: 5px;
+	margin-left: 160px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu4_10 {
+
+	margin: 5px;
+	margin-left: 180px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu5_1 {
+
+	margin: 5px;
+	margin-left: 0px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu5_2 {
+
+	margin: 5px;
+	margin-left: 20px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu5_3 {
+
+	margin: 5px;
+	margin-left: 40px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu5_4 {
+
+	margin: 5px;
+	margin-left: 60px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu5_5 {
+
+	margin: 5px;
+	margin-left: 80px;
+        background: url("tk_pointer_5_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu5_6 {
+
+	margin: 5px;
+	margin-left: 100px;
+        background: url("tk_pointer_6_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu5_7 {
+
+	margin: 5px;
+	margin-left: 120px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu5_8 {
+
+	margin: 5px;
+	margin-left: 140px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu5_9 {
+
+	margin: 5px;
+	margin-left: 160px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu5_10 {
+
+	margin: 5px;
+	margin-left: 180px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu6_1 {
+
+	margin: 5px;
+	margin-left: 0px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu6_2 {
+
+	margin: 5px;
+	margin-left: 20px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu6_3 {
+
+	margin: 5px;
+	margin-left: 40px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu6_4 {
+
+	margin: 5px;
+	margin-left: 60px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu6_5 {
+
+	margin: 5px;
+	margin-left: 80px;
+        background: url("tk_pointer_5_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu6_6 {
+
+	margin: 5px;
+	margin-left: 100px;
+        background: url("tk_pointer_6_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu6_7 {
+
+	margin: 5px;
+	margin-left: 120px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu6_8 {
+
+	margin: 5px;
+	margin-left: 140px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu6_9 {
+
+	margin: 5px;
+	margin-left: 160px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu6_10 {
+
+	margin: 5px;
+	margin-left: 180px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu7_1 {
+
+	margin: 5px;
+	margin-left: 0px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu7_2 {
+
+	margin: 5px;
+	margin-left: 20px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu7_3 {
+
+	margin: 5px;
+	margin-left: 40px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu7_4 {
+
+	margin: 5px;
+	margin-left: 60px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu7_5 {
+
+	margin: 5px;
+	margin-left: 80px;
+        background: url("tk_pointer_5_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu7_6 {
+
+	margin: 5px;
+	margin-left: 100px;
+        background: url("tk_pointer_6_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu7_7 {
+
+	margin: 5px;
+	margin-left: 120px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu7_8 {
+
+	margin: 5px;
+	margin-left: 140px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu7_9 {
+
+	margin: 5px;
+	margin-left: 160px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu7_10 {
+
+	margin: 5px;
+	margin-left: 180px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu8_1 {
+
+	margin: 5px;
+	margin-left: 0px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu8_2 {
+
+	margin: 5px;
+	margin-left: 20px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu8_3 {
+
+	margin: 5px;
+	margin-left: 40px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu8_4 {
+
+	margin: 5px;
+	margin-left: 60px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu8_5 {
+
+	margin: 5px;
+	margin-left: 80px;
+        background: url("tk_pointer_5_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu8_6 {
+
+	margin: 5px;
+	margin-left: 100px;
+        background: url("tk_pointer_6_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu8_7 {
+
+	margin: 5px;
+	margin-left: 120px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu8_8 {
+
+	margin: 5px;
+	margin-left: 140px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu8_9 {
+
+	margin: 5px;
+	margin-left: 160px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu8_10 {
+
+	margin: 5px;
+	margin-left: 180px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu9_1 {
+
+	margin: 5px;
+	margin-left: 0px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu9_2 {
+
+	margin: 5px;
+	margin-left: 20px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu9_3 {
+
+	margin: 5px;
+	margin-left: 40px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu9_4 {
+
+	margin: 5px;
+	margin-left: 60px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu9_5 {
+
+	margin: 5px;
+	margin-left: 80px;
+        background: url("tk_pointer_5_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu9_6 {
+
+	margin: 5px;
+	margin-left: 100px;
+        background: url("tk_pointer_6_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu9_7 {
+
+	margin: 5px;
+	margin-left: 120px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu9_8 {
+
+	margin: 5px;
+	margin-left: 140px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu9_9 {
+
+	margin: 5px;
+	margin-left: 160px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu9_10 {
+
+	margin: 5px;
+	margin-left: 180px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu10_1 {
+
+	margin: 5px;
+	margin-left: 0px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu10_2 {
+
+	margin: 5px;
+	margin-left: 20px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu10_3 {
+
+	margin: 5px;
+	margin-left: 40px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu10_4 {
+
+	margin: 5px;
+	margin-left: 60px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu10_5 {
+
+	margin: 5px;
+	margin-left: 80px;
+        background: url("tk_pointer_5_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu10_6 {
+
+	margin: 5px;
+	margin-left: 100px;
+        background: url("tk_pointer_6_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu10_7 {
+
+	margin: 5px;
+	margin-left: 120px;
+        background: url("tk_pointer_1_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu10_8 {
+
+	margin: 5px;
+	margin-left: 140px;
+        background: url("tk_pointer_2_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu10_9 {
+
+	margin: 5px;
+	margin-left: 160px;
+        background: url("tk_pointer_3_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+.menu10_10 {
+
+	margin: 5px;
+	margin-left: 180px;
+        background: url("tk_pointer_4_s.gif");
+        background-position: left top;
+        background-repeat: no-repeat;
+        padding-left: 2px;
+
+}
+
+.menuitem0 {
+        BACKGROUND: Array;
+        PADDING-LEFT: 0px;
+}
+
+.menuitem1 {
+        BACKGROUND: rgb(211,162,137);
+        PADDING-LEFT: 7px;
+}
+
+.menuitem2 {
+        BACKGROUND: rgb(211,162,137);
+        PADDING-LEFT: 14px;
+}
+
+.menuitem3 {
+        BACKGROUND: rgb(211,162,137);
+        PADDING-LEFT: 21px;
+}
+
+.menuitem4 {
+        BACKGROUND: rgb(211,162,137);
+        PADDING-LEFT: 28px;
+}
+
+.menuitem5 {
+        BACKGROUND: rgb(211,162,137);
+        PADDING-LEFT: 35px;
+}
+
+.menuitem6 {
+        BACKGROUND: rgb(211,162,137);
+        PADDING-LEFT: 42px;
+}
+
+.menuitem7 {
+       BACKGROUND: rgb(211,162,137);
+        PADDING-LEFT: 49px;
+}
+
+.menuitem8 {
+        BACKGROUND: rgb(211,162,137);
+        PADDING-LEFT: 56px;
+}
+
+.menuitem9 {
+        BACKGROUND: rgb(211,162,137);
+        PADDING-LEFT: 63px;
+}
+
+.TableHeadingColor {
+
+	BACKGROUND: red;
+
+}
+
+.TableHeadingColor * {
+
+	PADDING: 1px;
+
+}
+
+.TableRowColor * {
+
+	PADDING: 2px;
+
+}
+

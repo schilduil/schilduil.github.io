@@ -1,0 +1,345 @@
+// Decompiled by DJ v3.5.5.77 Copyright 2003 Atanas Neshkov  Date: 26/06/2003 21:39:50
+// Home Page : http://members.fortunecity.com/neshkov/dj.html  - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   BUD2001.java
+
+import cpa.bud.ChromosomeGroup;
+import cpa.bud.ChromosomePair;
+import cpa.bud.Genotype;
+import cpa.bud.MyString;
+import cpa.bud.PerX;
+import cpa.bud.PerXObject;
+import cpa.util.ReadURL;
+import java.applet.Applet;
+import java.awt.Button;
+import java.awt.Choice;
+import java.awt.Component;
+import java.awt.Container;
+import java.awt.Event;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.GridLayout;
+import java.awt.Label;
+import java.awt.List;
+import java.awt.Panel;
+
+public class BUD2001 extends Applet
+{
+
+    public int findGenNr(Genotype g)
+    {
+        int i = 0;
+        boolean b = true;
+        while(b) 
+        {
+            b = !gt[i].compare(g);
+            if(b)
+                b = ++i < gt.length;
+        }
+        if(i == gt.length)
+            return -1;
+        else
+            return i;
+    }
+
+    public boolean calculate()
+    {
+        LRes.clear();
+        int a = findName(ChColor1.getSelectedItem(), ChColor1.getSelectedIndex());
+        int b = findName(ChColor2.getSelectedItem(), ChColor2.getSelectedIndex());
+        PerX v[] = new PerX[Chrom.length];
+        for(int i = 0; i < Chrom.length; i++)
+            v[i] = calculateChromosomePairs(gt[a].getChromosomes(i), gt[b].getChromosomes(i), Chrom[i].isAllosome());
+
+        Genotype g = new Genotype(Chrom.length);
+        int chrmCount[] = new int[Chrom.length];
+        for(int chrm = 0; chrm < v.length;)
+        {
+            double perc = 100D;
+            int i;
+            for(i = 0; i < v.length; i++)
+            {
+                PerX p = v[i];
+                perc = p.getPerc(chrmCount[i]) * perc;
+                ChromosomePair cp = (ChromosomePair)p.getItem(chrmCount[i]);
+                g.setChromosomes(i, cp.getFirst(), cp.getSecond());
+            }
+
+            i = findGenNr(g);
+            if(i < 0)
+                LRes.addItem("Error -1");
+            else
+            if(i >= gt.length)
+                LRes.addItem("Error overflow");
+            else
+                LRes.addItem(Double.toString(perc) + "% " + gt[findGenNr(g)].getName());
+            chrm = 0;
+            boolean bLoop = chrmCount[chrm] + 1 == v[chrm].length();
+            while(bLoop) 
+            {
+                chrmCount[chrm] = 0;
+                if(++chrm == v.length)
+                    bLoop = false;
+                if(bLoop)
+                    bLoop = chrmCount[chrm] + 1 == v[chrm].length();
+            }
+            if(chrm < v.length)
+                chrmCount[chrm]++;
+        }
+
+        for(int i = 0; i < gt.length; i++)
+        {
+            double d = 0.0D;
+            if(d != 0.0D)
+                LRes.addItem(Double.toString(d) + "% " + gt[i].getName());
+        }
+
+        return true;
+    }
+
+    public boolean fromFile()
+    {
+        ReadURL my = new ReadURL(nameURL);
+        List LRes = new List(8, true);
+        int count = 0;
+        int count2 = 0;
+        try
+        {
+            java.util.StringTokenizer first = new java.util.StringTokenizer(my.getRaw(), ".");
+            java.util.StringTokenizer chrm = new java.util.StringTokenizer(first.nextElement().toString(), ":");
+            if(chrm.nextElement().toString().compareTo("CHROMOSOMES") != 0)
+                LRes.addItem("no chromosomes");
+            java.util.StringTokenizer ichr = new java.util.StringTokenizer(chrm.nextElement().toString(), ")");
+            Chrom = new ChromosomeGroup[ichr.countTokens()];
+            int i;
+            while(ichr.hasMoreElements()) 
+            {
+                java.util.StringTokenizer sta = new java.util.StringTokenizer(ichr.nextElement().toString(), "(");
+                String name = new String(sta.nextElement().toString());
+                java.util.StringTokenizer stb = new java.util.StringTokenizer(sta.nextElement().toString(), ",");
+                count2 = stb.countTokens();
+                Chrom[count] = new ChromosomeGroup(name, count2);
+                for(i = 0; i < count2; i++)
+                    Chrom[count].setChromosome(i, stb.nextElement().toString());
+
+                count++;
+            }
+            chrm = new java.util.StringTokenizer(first.nextElement().toString(), ":");
+            if(chrm.nextElement().toString().compareTo("GENOTYPES") != 0)
+                LRes.addItem("no genotypes");
+            ichr = new java.util.StringTokenizer(chrm.nextElement().toString(), ";");
+            count = ichr.countTokens();
+            gt = new Genotype[count];
+            i = 0;
+            for(i = 0; i < count; i++)
+                gt[i] = new Genotype(ichr.nextElement().toString(), Chrom.length);
+
+            Chrom[0].setAllosome();
+            int j = count;
+            for(count2 = 0; count2 < Chrom.length; count2++)
+            {
+                j /= Chrom[count2].possibleGenotypes();
+                if(Chrom[count2].isAllosome())
+                {
+                    int x = 2;
+                    int y = 1;
+                    for(i = 0; i < count; i++)
+                    {
+                        if(i % j == 0 && ++y >= Chrom[count2].length())
+                            if(++x >= Chrom[count2].length())
+                            {
+                                x = 2;
+                                y = 2;
+                            } else
+                            {
+                                y = x;
+                            }
+                        if(x == 3 && y == 3)
+                            gt[i].setChromosomes(count2, 1, 1);
+                        else
+                            gt[i].setChromosomes(count2, x, y);
+                    }
+
+                } else
+                {
+                    int x = 1;
+                    int y = 0;
+                    for(i = 0; i < count; i++)
+                    {
+                        if(i % j == 0 && ++y >= Chrom[count2].length())
+                            if(++x >= Chrom[count2].length())
+                            {
+                                x = 1;
+                                y = 1;
+                            } else
+                            {
+                                y = x;
+                            }
+                        gt[i].setChromosomes(count2, x, y);
+                    }
+
+                }
+            }
+
+            for(i = 3; i < gt.length; i++)
+                if(isMale(i))
+                    ChColor1.addItem(gt[i].getName());
+                else
+                if(isFemale(i))
+                    ChColor2.addItem(gt[i].getName());
+
+            return true;
+        }
+        catch(Exception e)
+        {
+            return false;
+        }
+    }
+
+    public boolean isFemale(int i)
+    {
+        try
+        {
+            ChromosomePair cp = gt[i].getChromosomes(0);
+            boolean b = cp.getSecond() == 3 || cp.getFirst() == 3;
+            return b;
+        }
+        catch(Exception e)
+        {
+            return false;
+        }
+    }
+
+    public PerX calculateChromosomePairs(ChromosomePair CP1, ChromosomePair CP2, boolean isAllosome)
+    {
+        if(isAllosome && CP1.getFirst() == 2 && CP1.getSecond() == 2 && CP2.getFirst() == 2 && CP2.getSecond() == 3)
+        {
+            PerX v = new PerX(4);
+            ChromosomePair CPRes = new ChromosomePair(1, 1);
+            CPRes.addPercValue(1.0D);
+            v.addItem(CPRes);
+            return v;
+        } else
+        {
+            PerX v = new PerX(4);
+            ChromosomePair CPRes = new ChromosomePair(CP1.getFirst(), CP2.getFirst());
+            CPRes.addPercValue(1.0D);
+            v.addItem(CPRes);
+            CPRes = new ChromosomePair(CP1.getFirst(), CP2.getSecond());
+            CPRes.addPercValue(1.0D);
+            v.addItem(CPRes);
+            CPRes = new ChromosomePair(CP1.getSecond(), CP2.getFirst());
+            CPRes.addPercValue(1.0D);
+            v.addItem(CPRes);
+            CPRes = new ChromosomePair(CP1.getSecond(), CP2.getSecond());
+            CPRes.addPercValue(1.0D);
+            v.addItem(CPRes);
+            return v;
+        }
+    }
+
+    public BUD2001()
+    {
+        ChColor1 = new Choice();
+        ChColor2 = new Choice();
+        BCalc = new Button("calculate");
+        LRes = new List(8, true);
+    }
+
+    public boolean hasNoSex(int i)
+    {
+        return !isFemale(i) && !isMale(i);
+    }
+
+    public int findName(String st, int start)
+    {
+        if(start < 0)
+            start = 0;
+        for(; gt[start].getName() != st && start < gt.length; start++);
+        if(start == gt.length && gt[start].getName() != st)
+            start = -1;
+        return start;
+    }
+
+    public boolean action(Event evt, Object arg)
+    {
+        if(evt.target instanceof Button)
+        {
+            if((Button)evt.target == BCalc)
+                if(calculate())
+                {
+                    BCalc.setLabel("calculated :");
+                    BCalc.disable();
+                } else
+                {
+                    LRes.clear();
+                }
+        } else
+        if(evt.target instanceof Choice)
+        {
+            BCalc.setLabel("calculate");
+            BCalc.enable();
+        }
+        return true;
+    }
+
+    public void init()
+    {
+        GridBagLayout gb = new GridBagLayout();
+        setLayout(gb);
+        Panel p = new Panel();
+        p.setLayout(new GridLayout(2, 1));
+        p.add(new Label(" Cock :", 0));
+        p.add(ChColor1);
+        GridBagConstraints c = new GridBagConstraints();
+        c.fill = 1;
+        c.weightx = 1.0D;
+        gb.setConstraints(p, c);
+        add(p);
+        Panel r = new Panel();
+        r.setLayout(new GridLayout(2, 1));
+        r.add(new Label(" ", 0));
+        r.add(new Label("x", 1));
+        add(r);
+        Panel q = new Panel();
+        q.setLayout(new GridLayout(2, 1));
+        q.add(new Label(" Hen :", 0));
+        q.add(ChColor2);
+        c.gridwidth = 0;
+        gb.setConstraints(q, c);
+        add(q);
+        c.weightx = 0.0D;
+        gb.setConstraints(BCalc, c);
+        add(BCalc);
+        gb.setConstraints(LRes, c);
+        add(LRes);
+        nameURL = getCodeBase() + getParameter("language") + ".sf";
+        if(!fromFile())
+            LRes.addItem("Error reading file " + getCodeBase() + getParameter("language") + ".sf");
+        validate();
+    }
+
+    public boolean isMale(int i)
+    {
+        try
+        {
+            ChromosomePair cp = gt[i].getChromosomes(0);
+            boolean b = cp.getSecond() != 3 && cp.getSecond() != 1 && cp.getFirst() != 3 && cp.getFirst() != 1;
+            return b;
+        }
+        catch(Exception e)
+        {
+            return false;
+        }
+    }
+
+    private Choice ChColor1;
+    private Choice ChColor2;
+    private Button BCalc;
+    private List LRes;
+    private ChromosomeGroup Chrom[];
+    private Genotype gt[];
+    private final int CHOICEFROM = 3;
+    private String nameURL;
+    private MyString language;
+}

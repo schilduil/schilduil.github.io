@@ -1,0 +1,343 @@
+Inteelt & verwantschap
+
+
+
+  Kort intermezzo erfelijkheid (Sp)
+
+
+
+  Wat is inteelt?
+
+    Koppelen van verwanten. 
+
+  inteeltcoëfficient
+
+    De kans dat twee genen van een paar identiek zijn door afstamming.
+
+    vb. Halfbroer/halfzus paring spangle
+
+    
+
+  Gevolgen van inteelt
+
+    inteeltdepressie
+
+      eg. double factor spangle = slecht
+
+      vb. vruchtbaarheid (mechanismen gevonden in planten), genetische ziekten, kleiner, meer sterfte, ...
+
+      Inteeltdepressie is niet zeker!
+
+    voordelen
+
+      breed pure -> minder variatie (+/-), mogelijkheid om zonder teveel variatie nieuwe genen in te brengen (outcross)
+
+  
+
+  Verwantschap
+
+  
+
+  De graad van inteelt/verwantschap op populatie niveau
+
+    
+
+    Loopt niet steeds samen met inteelt op individueel niveau (vb. sublijnen)
+
+  
+
+  Inteelt combineren met Outcrossing
+
+
+
+
+
+
+
+Inteelt & Verwantschap
+
+
+
+Reeds lang geleden, toen de dieren nog konden spreken, heeft de voorzitter mij gevraagd om eens iets te schrijven voor het clubblad. Ziehier een eerste artikel.
+
+
+
+Ik zal mijzelf eerst even voorstellen: Voordat ik ging studeren had ik al grasparkieten en andere vogels. Maar met de studies verdwenen ook de vogels. Gelukkig kon ik een studie volgen die wat met dieren te maken heeft: veeteelt. Voor mijn eindwerk heb ik mij bezig gehouden met uit te zoeken hoe inteelt kon beperkt worden bij de zeldzame Belgische schapenrassen. Dit was in samenwerking met het Steunpunt Levend Erfgoed (http://www.sle.be/) die zich bezighoud met de oorspronkelijke landbouwrassen van onze streken. Dus is het misschien niet verwonderlijk dat mijn eerste artikel over inteelt gaat. Al moet ik wel onmiddellijk bij vertellen dat het behoud van een zeldzaam ras iets anders is dan het kweken van showdieren.
+
+
+
+Na wat omzwervingen woon ik weer in een huis en ben ik sinds 2 jaar ook weer begonnen met het kweken van grasparkieten. Voorlopig zit ik dus nog in het beginners stadium.
+
+
+
+Voordat ik inga op inteelt wil ik even in het kort de basis van de Mendelse erfelijkheid even opfrissen.
+
+
+
+START INTERMEZZO Mendelse erfelijkheid
+
+
+
+De genen zijn de dragers van de genetische eigenschappen. Deze genen zitten als een lange koord aan elkaar vast. Zo\'n koord is een chromosoom. Deze chromosomen komen steeds in paren voor waardoor alle genen dus eigenlijk dubbel voorkomen. Nu hoeven twee overeenkomstige genen wel niet volledig identiek te zijn. Zo bestaat het spangle gen in twee vormen: 
+
+  * de wildvorm: Sp+
+
+  * de mutant: Sp
+
+Zoals de meeste wel weten is een vogel die van elke vorm één heeft (Sp+/Sp) een enkelfaktorige spangle, of kortweg spangle. Naast een enkelfaktorige spangel is er ook een dubbelfaktorige spangle. Genetisch heeft de dubbelfaktorige spangle twee mutant vormen van het spangle gen: Sp/Sp. En vanoudsher bestaat er natuurlijk ook de niet-spangle: Sp+/Sp+
+
+
+
+Samengevat:
+
+  Sp+/Sp+: niet-spangle
+
+  Sp+/Sp : (enkelfaktorig) spangle
+
+  Sp/Sp  : dubbelfaktorig spangle
+
+  
+
+Tot zover de genetische opbouw van niet-spangles en de twee spangle vormen, maar hoe vererven die genen? Dit is eigenlijk vrij vanzelfsprekend. Neem nu een paring (enkelfaktorig) spangle x (enkelfaktorig) spangle. De man kan aan zijn nakomelingen ofwel de wildvorm van dit gen doorgeven (Sp+) ofwel de mutant vorm (Sp). Hetzelfde geldt uiteraard ook voor de pop, zij kan ofwel een wildvorm (Sp+) of een mutant (Sp) gen doorgeven aan haar nakomelingen. Wat kunnen de nakomelingen dan zijn? Laten we mogelijke genen van de man combineren met de mogelijke genen van de pop:
+
+
+
+  Man  Sp+      Sp
+
+  Pop
+
+   Sp+ Sp+/Sp+  Sp+/Sp
+
+   Sp  Sp/Sp+   Sp/Sp
+
+
+
+Dit \'vierkant\' wordt het Punnet vierkant genoemd.
+
+
+
+De jongen zijn dus:
+
+  1x normaal (Sp+/Sp+)
+
+  2x (enkelfaktorig) spangle (Sp+/Sp)
+
+  1x dubbelfaktorig spangle
+
+  
+
+Of in procenten uitgedrukt:
+
+  25% normaal (Sp+/Sp+)
+
+  50% (enkelfaktorig) spangle (Sp+/Sp)
+
+  25% dubbelfaktorig spangle
+
+  
+
+STOP INTERMEZZO
+
+   
+
+Inteelt
+
+
+
+Inteelt is het koppelen van verwanten. Uiteraard zal de graad van verwantschap bepalen wat de graad van inteelt in de nakomelingen zal zijn. In de jaren \'20 heeft Sewall Wright hiervoor de inteeltcoëfficient ontwikkeld. 
+
+
+
+START INTERMEZZO inteeltcoëfficient
+
+
+
+De inteeltcoëfficient is de kans dat een willekeurig genpaar twee identieke genen bevat omdat deze twee genen afstammen van één gen in een voorouder.
+
+
+
+Een voorbeeld om dit te illustreren: stel we paren een volkleur grijsvleugel man aan twee onverwante normale poppen. Een volkleur grijsvleugel is eigenlijk een combinatie van een grijsvleugel gen (c(gw), grey wing) en een klaarvleugel gen (c(cw), clear wing). Het symbool voor het wildvorm gen (niet grijsvleugel of klaarvleugel) is c+.
+
+
+
+Het jaar daarna paren we halfbroer x halfzus, wat is dan de inteeltcoëfficient in hun nakomelingen?
+
+
+
+Dit is de stamboom:
+
+
+
+Pop 1     (c+/c+)
+
+                         Halfbroer
+
+DF Sp Man (c(gw)/c(cw))               Ingeteelde generatie
+
+                         Halfzus
+
+Pop 2     (c+/c+)
+
+
+
+De eerste generatie nakomelingen zullen 
+
+  ofwel split grijsvleugel (c+/c(gw))
+
+  ofwel split klaarvleugel (c+/c(cw))
+
+  
+
+Dus er zijn vier verschillende combinaties mogelijk in de tweede generatie (halfbroer x halfzus):
+
+
+
+  1/ split grijsvleugel x split grijsvleugel = c+/c(gw) x c+/c(gw)
+
+  2/ split grijsvleugel x split klaarvleugel = c+/c(gw) x c+/c(cw)
+
+  3/ split klaarvleugel x split grijsvleugel = c+/c(cw) x c+/c(gw)
+
+  4/ split klaarvleugel x split klaarvleugel = c+/c(cw) x c+/c(cw)
+
+
+
+
+
+De nakomelingen van de verschillende mogelijke combinaties in de tweede generatie zijn:
+
+
+
+  1/ split grijsvleugel x split grijsvleugel = c+/c(gw) x c+/c(gw)
+
+      25% normaal
+
+      50% split grijsvleugel
+
+      25% grijsvleugel
+
+      
+
+  2/ split grijsvleugel x split klaarvleugel = c+/c(gw) x c+/c(cw)
+
+      25% normaal
+
+      25% split grijsvleugel
+
+      25% split klaarvleugel
+
+      25% volkleur grijsvleugel
+
+      
+
+  3/ split klaarvleugel x split grijsvleugel = c+/c(cw) x c+/c(gw)
+
+      25% normaal
+
+      25% split klaarvleugel
+
+      25% split grijsvleugel
+
+      25% volkleur grijsvleugel
+
+      
+
+  4/ split klaarvleugel x split klaarvleugel = c+/c(cw) x c+/c(cw)
+
+      25% normaal
+
+      50% split klaarvleugel
+
+      25% klaarvleugel
+
+
+
+De enige genen in de ingeteelde generatie die identiek kunnen zijn omdat ze afstammen van hetzelfde gen zijn de genen van de gemeenschappelijke vader. Dit zijn is het grijsvleugel gen: c(gw) en het klaarvleugel gen c(cw). In de ingeteelde generatie kan wel de wildvorm dubbel voorkomen (c+/c+), maar dan komen die twee c+ genen niet van dezelfde voorourder.
+
+
+
+Dus per mogelijke combinatie in de tweede generatie zijn de grijsvleugels (c(gw)/c(gw)) en de klaarvleugels (c(cw)/c(cw)) de enige jongen waarin de twee genen identiek zijn omdat ze afstammen van één gen in een voorouder. Dus het percentage inteelt is per combinatie:
+
+
+
+  1/ split grijsvleugel x split grijsvleugel = c+/c(gw) x c+/c(gw)
+
+      25% inteelt (grijsvleugel)
+
+      
+
+  2/ split grijsvleugel x split klaarvleugel = c+/c(gw) x c+/c(cw)
+
+      0% inteelt
+
+      
+
+  3/ split klaarvleugel x split grijsvleugel = c+/c(cw) x c+/c(gw)
+
+      0% inteelt
+
+      
+
+  4/ split klaarvleugel x split klaarvleugel = c+/c(cw) x c+/c(cw)
+
+      25% inteelt (klaarvleugel)
+
+
+
+Dus gemiddeld is de kans op inteelt in een halfbroer x halfzus paring is 12,5%.
+
+
+
+STOP INTERMEZZO Inteeltcoëfficient
+
+
+
+Hier volgt nog een lijst van inteeltcoëfficienten voor enkele andere paringen:
+
+
+
+broer x zus          50%
+
+ouder x kind         50%
+
+halfbroer x halfzus  25%
+
+oom x nicht          25%
+
+neef x nicht         12,5%
+
+
+
+Noot: als de gemeenschappelijke voorouder al ingeteeld is zal de inteeltcoëfficent hoger zijn. Om zo\'n inteeltcoëfficient te bereken, of voor ingewikkeldere stambomen verwijs ik naar mijn artikel op het internet: http://www.schilduil.org/articles/index.php?article=20060623_Inteelt_berekenen.nl.html
+
+
+
+
+
+Inteelt en de gevolgen
+
+
+
+Uit de definitie van de inteeltcoëfficient zien we dat het als gevolg van het paren van verwanten we meer genenparen krijgen die identiek zijn (homozygoot in het vakjargon). Wat zijn hier de gevolgen van?
+
+
+
+Eerst en vooral betekent dit een verlies van genetische variatie: als de twee genen van een paar verschillend zijn is er meer genetische variatie dan wanneer deze identiek zijn. Dit is iets zeer belangrijk bij selectie. Op het verlies van genetische variatie kom ik terug in de paragraaf \"Inteelt in een populatie\".
+
+
+
+TODO: naar boven brengen recessieve genen (e.g. blauw). Als je graag blauwe vogels ziet is dat goed. Als je blauwe vogels niet wil is dit slecht (al moet dat genuanceerd worden, zie later)
+
+
+
+Genetic load: genetische belasting
+
+
+
+
+
+Genetic drift: slechte eigenschap geselecteerd omdat een andere eigenschap juist goed is in die vogel: compenseren bij selectie en compenseren bij het samenstellen van de koppels. Dit is vooral belangrijk als je inteelt, anders is de slechte eigenschap (ook de goede natuurlijk) snel vastgelegd in je stam.
+
+
+
+

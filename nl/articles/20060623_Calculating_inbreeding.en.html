@@ -1,0 +1,831 @@
+<h1>Calculating Inbreeding</h1>
+
+<p>The article of reference about calculating inbreeding is <i>Wright, S.
+(1922). Coefficient of inbreeding and relationship. American Naturalist,
+56</i>. In this article for the coefficient for inbreeding is introduced.</p>
+
+<h2>Definition</h2>
+
+<p>The inbreeding coefficient is the probability that the two genes on a
+random locus are equal because they descend from the same gene in an
+ancestor.</p>
+
+<p>The inbreeding coefficient is a probability, so it will be between 0
+and 1. The inbreeding coefficient is based on common ancestry in the
+parents so we always start from the pedigree to calculate inbreeding.
+Here's the pedigree of the example we'll use in this article:<br />
+<center><img src="images/20060623_pedigree.gif" alt="Pedigree for the example used in this article" title="Pedigree for the example used in this article"></center></p>
+
+<p>The original method for calculating the inbreeding coefficients is of
+course from Wright but Henderson &amp; Cunningham have come up with a
+different method for calculating the same inbreeding coefficients.</p>
+
+<h2>The method of Wright</h2>
+
+<p>The original method of Wright consisted of finding all common ancestors
+of the parents and the paths from the parents to these common ancestors. The
+formula by Wright is (don't worry if you don't have a higher degree in
+math, I'll explain what it means right after and how it practically
+works):<br />
+<center><img src="images/20060623_wright_formula.gif" alt="Formula of Wright" title="Formula of Wright"></center></p>
+
+<p>F is the symbol commonly used for the inbreeding coefficient.
+F<sub>i</sub> is the inbreeding coefficient for bird <i>i</i>. Bird
+<i>a</i> is a common ancestor of both parents of bird <i>i</i>.
+F<sub>a</sub> is the inbreeding coefficient of the common ancestor
+<i>a</i>. The n<sub>1</sub> and n<sub>2</sub> are the number of
+generation between the common ancestor and both parents. The weird symbol
+in front is a summation sign. It means that you have to do this for all
+possible common ancestors and paths and then add the results.</p>
+
+<p>So far the theory - it's far clearer if you do it by example.<br />
+<br />
+<b>Example: F<sub>I</sub></b><br />
+In this example A and B are common ancestors for the parents (G and H) of
+I. The paths from both parents to these common ancestors are:<br />
+For ancestor A:<br />
+&nbsp;G - A (n<sub>1</sub> = 1)<br />
+&nbsp;G - D - A (n<sub>1</sub> = 2)<br />
+&nbsp;H - E - A (n<sub>2</sub> = 2)<br />
+<br />
+For ancestor B:<br />
+&nbsp;G - D - B (n<sub>1</sub> = 2)<br />
+&nbsp;H - E - B (n<sub>2</sub> = 2)<br />
+<br />
+We suppose that A and B are not inbred so (1 + FA) = 1 and (1 + FB) = 1.<br />
+The inbreeding because of common ancestor B is:<br />
+&nbsp;F(I&lt;B) = (1/2)<sup>(2+2+1)</sup> = (1/2)<sup>5</sup> = 0.03125 = 3.125%<br />
+The inbreeding because of common ancestor A is:<br />
+&nbsp;F(I&lt;A) = (1/2)<sup>(1+2+1)</sup> + (1/2)<sup>(2+2+1)</sup> = (1/2)<sup>4</sup> + (1/2)<sup>5</sup> = 0.0625 + 0.03125 = 0.09375 = 9.375%<br />
+The inbreeding coefficient of I is:<br />
+&nbsp;F<sub>I</sub> = 3.125% + 9.375% = 12.5%<br />
+<br />
+<b>Example: F<sub>G</sub></b><br />
+Calculating the inbreeding in G that is a result of father x daughter
+pairing is:<br />
+&nbsp;A (n<sub>1</sub> = 0)<br />
+&nbsp;D - A (n<sub>2</sub> = 1)<br />
+&nbsp;F<sub>G</sub> = (1/2)<sup>(0+1+1)</sup> = (1/2)<sup>2</sup> = 0.25 = 25%<br /></p>
+
+<h2>Method of Henderson &amp; Cunningham</h2>
+
+<p>This method lets you calculate the inbreeding coefficient for your
+entire population and also gives you the kinships between individuals.</p>
+
+<p><b>1</b>. Order all animals from oldest to youngest:<br />
+A B D E F G H I<br /></p>
+
+<p><b>2</b>. Create a square grid with a column and row for each animal:
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+   </tr>
+ <tr>
+  <th>G</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
+<br />
+
+<p><b>3</b>. In the diagonal cells (where a column and a row of the same
+animal cross) write one plus the inbreeding coefficient (1 + F).
+For the 3 animals without pedigree information we assumed that the
+inbreeding coefficient is 0, so the diagonal cell becomes 1.</p>
+
+<p><b>4</b>. The non diagonal cells hold the additive genetic
+relationship a<sub>ij</sub>. This means that the grid is symmetric because
+a<sub>ij</sub> = a<sub>ji</sub>. For the animals without pedigree we
+suppose that they are unrelated: a<sub>ij</sub> = 0.</p>
+
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>1</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>0</td>
+  <td>1</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>0</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>1</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>G</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
+<br />
+
+<p>The rules for further completing the grid are easy. For diagonal cells
+1 + a<sub>ij</sub>/2 holds where <i>i</i> and <i>j</i> are the parents of
+the individual. For non diagonal cells holds a<sub>ij</sub> = (a<sub>ik</sub>
++ a<sub>il</sub>)/2 if <i>i</i> is younger then <i>j</i> and <i>k</i> and
+<i>l</i> are the parents of <i>i</i>.</p>
+
+<p>So for D that has parents A and B:<br />
+a<sub>AD</sub> = (a<sub>AA</sub> + a<sub>AB</sub>)/2 = (1 + 0)/2 = 0.5<br />
+a<sub>BD</sub> = (a<sub>AB</sub> + a<sub>BB</sub>)/2 = (0 + 1)/2 = 0.5<br />
+a<sub>DD</sub> = 1 + a<sub>AB</sub>/2 = 1 + 0/2 = 1<br /></p>
+
+<p>Filling these numbers into the grid:</p>
+
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>&nbsp;</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>0</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>&nbsp;</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>&nbsp;</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>1</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>G</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
+<br />
+
+<p>Next we fill the column and row for E:</p>
+
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>0</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>G</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
+<br />
+
+<p>Next filling the column and row for G:</p>
+
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.75</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>0</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.25</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.75</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>G</th>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>0.75</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>1.25</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
+<br />
+
+<p>Next filling the column and row for H:</p>
+
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>0</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.25</td>
+  <td>0.25</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>G</th>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>0.75</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>1.25</td>
+  <td>0.25</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>0.25</td>
+  <td>0.25</td>
+  <td>0.25</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.25</td>
+  <td>1</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
+<br />
+
+<p>Next filling the column and row for I:</p>
+
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>0.5</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>0</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.25</td>
+  <td>0.25</td>
+  <td>0.25</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>0.5</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.5</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.25</td>
+ </tr>
+ <tr>
+  <th>G</th>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>0.75</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>1.25</td>
+  <td>0.25</td>
+  <td>0.75</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>0.25</td>
+  <td>0.25</td>
+  <td>0.25</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.25</td>
+  <td>1</td>
+  <td>0.625</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>0.5</td>
+  <td>0.25</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.25</td>
+  <td>0.75</td>
+  <td>0.625</td>
+  <td>1.125</td>
+ </tr>
+</table>
+<br />
+
+<p>(C) Bert Raeymaekers</p>

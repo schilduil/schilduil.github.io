@@ -1,0 +1,50 @@
+
+get_menu_from , 0: java
+isset
+> including ../../../../menu.ini.php
+Call subdir and add this level...
+get_menu_from java/, 1: sugc
+isset
+> including ../../../../java/menu.ini.php
+Call subdir and add this level...
+get_menu_from java/sugc/, 2: docs
+isset
+> including ../../../../java/sugc/menu.ini.php
+One before last level
+
+
+array(
+  'URL' => '../../../../java/',
+  'def' => array(
+    'active' => TRUE,
+    'name' => 'Software'
+  ),
+  'subs' => array(
+    0 => array(
+      'URL' => '../../../../java/sugc/',
+      'def' => array(
+        'active' => TRUE,
+        'name' => 'Gen. Calc.'
+      ),
+      'subs' => array(
+        0 => array(
+          'URL' => '../../../../java/sugc/docs/',
+          'def' => array(
+            'active' => TRUE,
+            'name' => 'Documentation',
+            'nl' => 'Documentatie'
+          ),
+          'subs' => array(
+            0 => array(
+              'URL' => '../../../../java/sugc/docs/api',
+              'dev' => array(
+                'active' => FALSE,
+                'name' => 'Javadoc'
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+)

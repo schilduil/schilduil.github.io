@@ -1,0 +1,68 @@
+# Early ones
+BB
+OPI
+M
+SIN
+YF
+# Silva bought
+GOc
+GOh
+MCc
+MCh
+# Early 2008 offspring
+(GOGO)1 GOc GOh violet cock/opaline
+(GOGO)2 GOc GOh cinnamon-opaline hen
+(GOGO)7 GOc GOh lightgreen cock/blue, opaline-ino
+(MCMC)12 MCc MCh mauve cinnamon hen
+(MCMC)13 MCc MCh mauve cinnamon cock
+# HH731 bought
+LG
+SP
+GP
+GG
+VAYF
+# Late 2008 offspring
+(GOVAYF)62 GOc VAYF Australian yellowface opaline-cinnamon/Danish pied
+(GOVAYF)63 GOc VAYF Australian yellowface albino-opaline
+(GOVAYF)64 GOc VAYF Australian yellowface opaline cock/cinnamon, ino
+(GOVAYF)66 GOc VAYF darkgreen opaline-cinnamon
+(GOVAYF)67 GOc VAYF cobalt opaline-cinnamon
+(GOVAYF)68 GOc VAYF Australian yellowface opaline-cinnamon cock
+(GOVAYF)69 GOc VAYF darkgreen opaline-cinnamon cock/Danish pied
+(GOVAYF)77 GOc VAYF Australian yellowface opaline-cinnamon hen
+(GOVAYF)78 GOc VAYF Australian yellowface opaline-cinnamon hen
+# 2009 offspring
+2009/1 (GOGO)7 (4S)25 yellowface type II ino-opaline
+(GOSP)2 GOc SP
+(GPVAYF)3 GP VAYF cobalt opaline cock/cinnamon
+(GPVAYF)4 GP VAYF cobalt opaline hen
+(GOGG)5 GOc GG lutino-opaline hen
+(GPVAYF)6 GP VAYF A. goldenface A. pied opaline cock/cinnamon
+(GOGG)7 GOc GG lutino-opaline hen
+(LG66)8 LG (GOVAYF)66 skyblue cinnamon cock/opaline
+(GO63)9 GOc (GOVAYF)63 darkgreen opaline
+(15OPI)11 (25)15 OPI skyblue hen?
+(15OPI)12 (25)15 OPI opaline
+(15OPI)13 (25)15 OPI darkgreen opaline
+(GOVAYF)14 (GOVAYF)69 (GOVAYF)77 skyblue opaline-cinnamon hen?
+(MC67)15 (MCMC)13 (GOVAYF)67 cobalt cinnamon/opaline
+(MC67)16 (MCMC)13 (GOVAYF)67 cobalt cinnamon/opaline
+(GOVAYF)17 (GOVAYF)69 (GOVAYF)77 Australian yellowface opaline-cinnamon
+(MC67)18 (MCMC)13 (GOVAYF)67 mauve cinnamon cock?
+(GOVAYF)19 (GOVAYF)69 (GOVAYF)77 green opaline-cinnamon
+2009/20 ? ? cobalt opaline hen?
+2009/21 ? ? violet yellowface cock?
+2009/22 ? ? violet yellowface cock?
+(GOVAYF)23 (GOVAYF)69 (GOVAYF)62 Australian yellowface opaline-cinnamon 
+(GOVAYF)24 (GOVAYF)69 (GOVAYF)62 darkgreen opaline-cinnamon
+(GOVAYF)25 (GOVAYF)69 (GOVAYF)62 Australian yellowface opaline-cinnamon
+(GOVAYF)26 (GOVAYF)69 (GOVAYF)62 Danish pied opaline-cinnamon+
+(GOVAYF)28 (GOVAYF)69 (GOVAYF)62 ? opaline-cinnamon+
+(GO63)48 GOc (GOVAYF)63 darkgreen opaline cock
+(MC67)51 (MCMC)13 (GOVAYF)67
+(GO63)52 GOc (GOVAYF)63 cinnamon-opaline hen
+(MCSP)57 MCc SP Australian pied cobalt cinnamon hen
+(GO63)58 GOc (GOVAYF)63 ino
+(MC67)60 (MCMC)13 (GOVAYF)67
+(MC67)61 (MCMC)13 (GOVAYF)67
+(MC67)62 (MCMC)13 (GOVAYF)67

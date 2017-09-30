@@ -1,0 +1,107 @@
+<HTML>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+
+  function add_image(text) {
+
+    add('<img src="../' + text + '">');
+
+  }
+
+  function add(text) {
+
+    // document.post.img = im;
+    document.post.message.value += text;
+  	document.post.message.focus();
+
+  }
+
+// -->
+</script>
+
+<BODY>
+
+
+
+<FORM action="tpl.html" name="post" method="post">
+<INPUT type="hidden" name="img" value="">
+
+  <TABLE border="1">
+
+    <TR>
+
+      <TD rowspan="2" valign="top" bgcolor="#FFFFA0">
+
+        <DIV>
+          <U>Icoontjes</U>
+        </DIV>
+        <DIV>
+        <a href="javascript:add_image('icon_arrow.gif')"><img src="../icon_arrow.gif" border="0"></a> <a href="javascript:add_image('icon_biggrin.gif')"><img src="../icon_biggrin.gif" border="0"></a> <a href="javascript:add_image('icon_confused.gif')"><img src="../icon_confused.gif" border="0"></a> <a href="javascript:add_image('icon_cool.gif')"><img src="../icon_cool.gif" border="0"></a> </DIV><DIV><a href="javascript:add_image('icon_cry.gif')"><img src="../icon_cry.gif" border="0"></a> <a href="javascript:add_image('icon_eek.gif')"><img src="../icon_eek.gif" border="0"></a> <a href="javascript:add_image('icon_evil.gif')"><img src="../icon_evil.gif" border="0"></a> <a href="javascript:add_image('icon_exclaim.gif')"><img src="../icon_exclaim.gif" border="0"></a> </DIV><DIV><a href="javascript:add_image('icon_frown.gif')"><img src="../icon_frown.gif" border="0"></a> <a href="javascript:add_image('icon_idea.gif')"><img src="../icon_idea.gif" border="0"></a> <a href="javascript:add_image('icon_lol.gif')"><img src="../icon_lol.gif" border="0"></a> <a href="javascript:add_image('icon_mad.gif')"><img src="../icon_mad.gif" border="0"></a> </DIV><DIV><a href="javascript:add_image('icon_mrgreen.gif')"><img src="../icon_mrgreen.gif" border="0"></a> <a href="javascript:add_image('icon_neutral.gif')"><img src="../icon_neutral.gif" border="0"></a> <a href="javascript:add_image('icon_question.gif')"><img src="../icon_question.gif" border="0"></a> <a href="javascript:add_image('icon_razz.gif')"><img src="../icon_razz.gif" border="0"></a> </DIV><DIV><a href="javascript:add_image('icon_redface.gif')"><img src="../icon_redface.gif" border="0"></a> <a href="javascript:add_image('icon_rolleyes.gif')"><img src="../icon_rolleyes.gif" border="0"></a> <a href="javascript:add_image('icon_sad.gif')"><img src="../icon_sad.gif" border="0"></a> <a href="javascript:add_image('icon_smile.gif')"><img src="../icon_smile.gif" border="0"></a> </DIV><DIV><a href="javascript:add_image('icon_surprised.gif')"><img src="../icon_surprised.gif" border="0"></a> <a href="javascript:add_image('icon_twisted.gif')"><img src="../icon_twisted.gif" border="0"></a> <a href="javascript:add_image('icon_wink.gif')"><img src="../icon_wink.gif" border="0"></a> </DIV><DIV style='align: center;'><a href="javascript:add_image('maan.gif')"><img src="../maan.gif" border="0"></a> </DIV><DIV style='align: center;'><a href="javascript:add_image('spook.gif')"><img src="../spook.gif" border="0"></a> </DIV><DIV style='align: center;'><a href="javascript:add_image('wolk.gif')"><img src="../wolk.gif" border="0"></a> </DIV><DIV style='align: center;'><a href="javascript:add_image('zon.gif')"><img src="../zon.gif" border="0"></a> </DIV><DIV style='align: center;'><a href="javascript:add_image('flag-por.png')"><img src="../flag-por.png" border="0"></a>         </DIV>
+
+      </TD>
+
+      <TD align="center" bgcolor="#A0A0FF" valign="middle">
+
+        <a href="javascript:add('<img src=%22http://www.server.com/dir/image.gif%22 border=%220%22>')"><img src="../b_url.gif" border="0" alt="URL"></a>
+        <a href="javascript:add('<a href=%22http://www.server.com/dir/page.html%22>Link name</a>')"><img src="../b_image.gif" border="0" alt="Beeld"></a>
+        <a href="javascript:add('<p>')"><img src="../blutext.gif" border="0" alt="Paragraaf"></a>
+
+      </TD>
+
+    </TR>
+
+     <TR>
+
+      <TD align="center">
+
+        <TEXTAREA name="message" cols="75" rows="25" bgcolor="#FFFFA0"></TEXTAREA>
+
+      </TD>
+
+    </TR>
+
+    <TR>
+
+      <TD>
+
+      </TD>
+
+      <TD align="center" bgcolor="#A0A0FF">
+
+        <INPUT type="image" src="../bludown.gif" name="preview">
+
+      </TD>
+
+    </TR>
+
+    <TR>
+
+      <TD>
+
+      </TD>
+
+      <TD bgcolor="#FFFFA0">
+
+        
+      </TD>
+
+    </TR>
+
+    <TR>
+
+      <TD>
+
+      </TD>
+
+      <TD align="center" bgcolor="#A0A0FF">
+
+        <INPUT type="image" src="../box.gif" name="submit">
+
+      </TD>
+
+    </TR>
+
+  </TABLE>
+
+</FORM>

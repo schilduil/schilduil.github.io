@@ -1,0 +1,27 @@
+CHROMOSOMES:
+sex chromosom(
+cin,
+0,
+X,
+Y,
+X cin)
+blau, dunkelfactor chromosom(b,0,b).
+GENOTYPES:
+1,0 Hellgrün;
+1,0 Hellrün/Blau;
+1,0 Blau;
+0,1 Hellgrün;
+0,1 Hellgrün/Blau;
+0,1 Blau;
+1,0 Hellgrün/Zimt;
+1,0 Hellgrün/Blau, Zimt;
+1,0 Blau/Zimt;
+Hellgrün;
+Hellgrün/Blau;
+Blau;
+0,1 Zimt;
+0,1 Zimt/Blau;
+0,1 Blau Zimt;
+1,0 Zimt;
+1,0 Zimt/Blau;
+1,0 Blau Zimt

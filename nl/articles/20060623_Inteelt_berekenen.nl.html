@@ -1,0 +1,834 @@
+<h1>Inteelt berekenen</h1>
+
+<p>Het referentieartikel over het berekenen van inteelt is <i>Wright, S.
+(1922). Coefficient of inbreeding and relationship. American Naturalist,
+56</i>. In dit artikel werd voor de inteeltcoëfficient eïntroduceerd.</p>
+
+<h2>Definitie</h2>
+
+<p>De inteeltcoëfficient van een indidvidu is de waarschijnlijkheid dat
+twee genen op een willekeurig locus gelijk zijn omdat ze afstammen van
+eenzelfde gen in een voorouder.</p>
+
+<p>De inteeltcoëfficient is een waarschijnlijkheid, dus het ligt tussen 0
+en 1. De inteeltcoëfficient is gebaseerd op gemeenschappelijke voorouders
+bij de ouders dus de eerste stap om de inteelt te berekenen is de stamboom
+maken. Hier is de stamboom voor het voorbeeld dat in dit artikel wordt
+gebruikt:<br />
+<center><img src="images/20060623_pedigree.gif" alt="Stamboom voor het voorbeeld in dit artikel" title="Stamboom voor het voorbeeld in dit artikel"></center></p>
+
+<p>De oorspronkelijke methode om de inteeltcoëfficienten te berekenen is
+uiteraard deze van Wright maar ook Henderson &amp; Cunningham hebben een
+andere methode bedacht om dezelfde inteeltcoëfficienten te berekenen.</p>
+
+<h2>De methode van Wright</h2>
+
+<p>De oorspronkelijke methode van Wright bestaat uit het vinden van alle
+gemeenschappelijke voorouders van de ouders en de paden van de ouders naar
+die gemeenschappelijke voorouders. De formule van Wright is (geen paniek
+als je geen diploma in hogere wiskunde hebt, ik zal het dadelijk erna
+uitleggen en tonen hoe het in de praktijk werkt):<br />
+<center><img src="images/20060623_wright_formula.gif" alt="Formule van Wright" title="Formule van Wright"></center></p>
+
+<p>F is het symbool dat gebruikt wordt voor de inteeltcoëfficient.
+F<sub>i</sub> is de inteeltcoëfficient van vogel <i>i</i>. Vogel
+<i>a</i> is een gemeenschappelijke voorouder van beide ouders van vogel
+<i>i</i>. F<sub>a</sub> is de inteeltcoëfficient van de gemeenschappelijke
+voorouder <i>a</i>. De n<sub>1</sub> en n<sub>2</sub> zijn het aantal
+generatie tussen de gemeenschappelijke voorouder en beide ouders. Het
+gekke symbool vooraan is een sommatie teken. Het betekent dat je dit moet
+doen voor alle mogelijke gemeenschappelijke voorouders en paden en dan de
+uitkomsten moet optellen.</p>
+
+<p>Zover de theorie - het wordt veel duidelijker met een voorbeeld.<br />
+<br />
+<b>Voorbeeld: F<sub>I</sub></b><br />
+In dit voorbeeld zijn A en B de gemeenschappelijke voorouders van de
+ouders (G en H) van I. De paden van beide ouders naar deze
+gemeenschappelijke voorouders zijn:<br />
+Voor voorouder A:<br />
+&nbsp;G - A (n<sub>1</sub> = 1)<br />
+&nbsp;G - D - A (n<sub>1</sub> = 2)<br />
+&nbsp;H - E - A (n<sub>2</sub> = 2)<br />
+<br />
+Voor voorouder B:<br />
+&nbsp;G - D - B (n<sub>1</sub> = 2)<br />
+&nbsp;H - E - B (n<sub>2</sub> = 2)<br />
+<br />
+We veronderstellen dat A en B niet ingeteeld zijn zodat (1 + FA) = 1 en
+(1 + FB) = 1.<br />
+De inteelt als gevolg van de gemeenschappelijke ouder B is:<br />
+&nbsp;F(I&lt;B) = (1/2)(2+2+1) = (1/2)5 = 0,03125 = 3,125%<br />
+De inteelt als gevolg van de gemeenschappelijke ouder A is:<br />
+&nbsp;F(I&lt;A) = (1/2)(1+2+1) + (1/2)(2+2+1) = (1/2)4 + (1/2)5 = 0,0625 + 0,03125 = 0,09375 = 9,375%<br />
+De inteeltcoëfficienten van I is:<br />
+&nbsp;F<sub>I</sub> = 3,125% + 9,375% = 12,5%<br />
+<br />
+<b>Voorbeeld: F<sub>G</sub></b><br />
+Berekenen van de inteelt in G die uit een vader x dochter paring komt:<br />
+&nbsp;A (n<sub>1</sub> = 0)<br />
+&nbsp;D - A (n<sub>2</sub> = 1)<br />
+&nbsp;F<sub>G</sub> = (1/2)(0+1+1) = (1/2)2 = 0,25 = 25%<br /></p>
+
+<h2>Methode van Henderson &amp; Cunningham</h2>
+
+<p>Deze methode laat je de inteeltcoëffienten voor de gehele populatie
+berekenen en geeft ook al de verwantschap tussen de individuen.</p>
+
+<p><b>1</b>. Sorteer alle dieren van oud naar jong:<br />
+A B D E F G H I<br /></p>
+
+<p><b>2</b>. Maak een vierkant met een kolom en een rij voor elk dier:
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+   </tr>
+ <tr>
+  <th>G</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
+<br />
+
+<p><b>3</b>. In de diagonale cellen (waar de kolom en de rij van hetzelfde
+dier kruisen) schrijf �én plus de inteeltcëfficient (1 + F). Voor de drie
+dieren zonder stamboom veronderstellen we dat de inteeltcoëfficient 0 is,
+dus de diagonale cellen worden 1.</p>
+
+<p><b>4</b>. De niet diagonale cellen bevatten de additief genetische
+verwantschap a<sub>ij</sub>. Dit betekend dat het vierkant symmetrisch is
+want a<sub>ij</sub> = a<sub>ji</sub>. Voor de dieren zonder stamboom
+veronderstellen we dat ze onverwant zijn: a<sub>ij</sub> = 0.</p>
+
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>1</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>0</td>
+  <td>1</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>0</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>1</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>G</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
+<br />
+
+<p>De regels voor het verder aanvullen van het vierkant is gemakkellijk.
+Voor de diagonale cellen geldt 1 + a<sub>ij</sub>/2, waar <i>i</i> en
+<i>j</i> de ouders zijn van het individu. Voor de niet diagonale cellen
+geldt a<sub>ij</sub> = (a<sub>ik</sub> + a<sub>il</sub>)/2, als <i>i</i>
+jonger is dan <i>j</i> en <i>k</i> en <i>l</i> de ouders zijn van <i>i</i>.</p>
+
+<p>Dus voor D met ouders A en B:<br />
+a<sub>AD</sub> = (a<sub>AA</sub> + a<sub>AB</sub>)/2 = (1 + 0)/2 = 0,5<br />
+a<sub>BD</sub> = (a<sub>AB</sub> + a<sub>BB</sub>)/2 = (0 + 1)/2 = 0,5<br />
+a<sub>DD</sub> = 1 + a<sub>AB</sub>/2 = 1 + 0/2 = 1<br /></p>
+
+<p>Invullen in het vierkant:</p>
+
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>&nbsp;</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>0</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>&nbsp;</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>&nbsp;</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>1</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>G</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
+<br />
+
+<p>De kolom en rij voor E invullen:</p>
+
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>0</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0,5</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>G</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
+<br />
+
+<p>De kolom en rij voor G invullen:</p>
+
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.75</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>0</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.25</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0,5</td>
+  <td>0</td>
+  <td>0.75</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>G</th>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>0.75</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>1.25</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
+<br />
+
+<p>De kolom en rij voor H invullen:</p>
+
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>0</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.25</td>
+  <td>0.25</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0,5</td>
+  <td>0</td>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>G</th>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>0.75</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>1.25</td>
+  <td>0.25</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>0.25</td>
+  <td>0.25</td>
+  <td>0.25</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.25</td>
+  <td>1</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+</table>
+<br />
+
+<p>De kolom en rij voor I invullen:</p>
+
+<table border="1">
+ <tr>
+  <th></th>
+  <th>A</th>
+  <th>B</th>
+  <th>D</th>
+  <th>E</th>
+  <th>F</th>
+  <th>G</th>
+  <th>H</th>
+  <th>I</th>
+ </tr>
+ <tr>
+  <th>A</th>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>0.5</td>
+ </tr>
+ <tr>
+  <th>B</th>
+  <td>0</td>
+  <td>1</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>0.25</td>
+  <td>0.25</td>
+  <td>0.25</td>
+ </tr>
+ <tr>
+  <th>D</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0,5</td>
+  <td>0</td>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>0.5</td>
+ </tr>
+ <tr>
+  <th>E</th>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.5</td>
+ </tr>
+ <tr>
+  <th>F</th>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0.5</td>
+  <td>0.25</td>
+ </tr>
+ <tr>
+  <th>G</th>
+  <td>0.75</td>
+  <td>0.25</td>
+  <td>0.75</td>
+  <td>0.5</td>
+  <td>0</td>
+  <td>1.25</td>
+  <td>0.25</td>
+  <td>0.75</td>
+ </tr>
+ <tr>
+  <th>H</th>
+  <td>0.25</td>
+  <td>0.25</td>
+  <td>0.25</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.25</td>
+  <td>1</td>
+  <td>0.625</td>
+ </tr>
+ <tr>
+  <th>I</th>
+  <td>0.5</td>
+  <td>0.25</td>
+  <td>0.5</td>
+  <td>0.5</td>
+  <td>0.25</td>
+  <td>0.75</td>
+  <td>0.625</td>
+  <td>1,125</td>
+ </tr>
+</table>
+<br />
+
+<p>(C) Bert Raeymaekers</p>

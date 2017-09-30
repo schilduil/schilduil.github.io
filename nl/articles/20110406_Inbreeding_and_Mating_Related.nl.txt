@@ -1,0 +1,153 @@
+Inteelt en Mating gerelateerde
+
+I've deliberately split up inbreeding and mating related. Ik heb bewust opgesplitst inteelt en aanverwante paring. These two are strongly linked: mating related results in inbred offspring. Deze twee zijn sterk met elkaar verbonden: de paring gerelateerde resultaten in ingeteelde nakomelingen. Yet it is important to make the distinction and considering both when pairing up. Toch is het belangrijk om het onderscheid en overweegt zowel bij het koppelen van.
+
+The extremes of both aspects are: De extremen van beide aspecten zijn:
+
+    * Relationship between parents: RELATED vs UNRELATED (R vs U) Relatie tussen ouders: Verwante vs niet-gerelateerde (R vs U)
+    * Inbreeding of parents: INBRED vs NON INBRED (I vs N) Inteelt van de ouders: INGETEELD vs niet INGETEELD (I vs N) 
+
+Both aspects are not absolute but a continuum from 0% to 100%. Beide aspecten zijn niet absoluut, maar een continuüm van 0% tot 100%. This is very important: an individual that may be inbred by some standard might be non inbred by another. Dit is zeer belangrijk: een persoon die kan worden inteelt door een aantal standaard wellicht niet inteelt door een ander. It all depends where you draw the line in the continuum. Het hangt allemaal af van waar u de lijn te trekken in het continuüm. But for simplicity I'll pretend both aspects are either black or white. Maar voor de eenvoud zal ik doen alsof beide aspecten zijn zwart of wit.
+
+Here is a table where I combine the relationship between the parents and the inbreeding in the parents. Hier is een tabel waar ik de relatie te combineren tussen de ouders en de inteelt bij de ouders. I also mention the consequences on the genotype (genes) and phenotype (traits). Ik ook wijzen op de gevolgen voor het genotype (genen) en fenotype (eigenschappen).
+
+Table 1 : Consequences of mating (un)related and inbred or non inbred parents. Tabel 1: Gevolgen van paring (on) verwante en inteelt of niet inteelt ouders.
+Pairing related birds Paren gerelateerde vogels 	Pairing unrelated birds Paren die niets vogels 	Using inbred birds Met behulp van inteelt vogels 	Using non inbred birds Het gebruik van niet inteelt vogels
+Double up on genes Dubbelklik op genen 	Gene pairs are different Genenparen zijn verschillende 	Predictable gene flow to the offspring Voorspelbare 'gene flow' aan het nageslacht 	Recombines genes Recombineert genen
+Double up on good traits Dubbelklik op goede eigenschappen
+Double up on bad traits Dubbelklik op slechte eigenschappen
+Creates prepotency: "pure" individuals that breed true Creëert prepotentie: "zuiver" individuen die ras echte 	Dilutes traits Verdunt eigenschappen
+
+The only way to bring in new genes De enige manier om te brengen in de nieuwe genen 	Uniform offspring (traits) Uniforme nakomelingen (eigenschappen)
+Every trait gets passed, though it can be hidden Elke eigenschap wordt doorgegeven, maar het kan worden verborgen 	Recombines traits Recombineert eigenschappen
+A lot of variation in the offspring Een veel variatie in de nakomelingen
+
+A good selection of the breeding team is far more important than any breeding system. Een goede selectie van de fokkerij team is veel belangrijker dan welke fokkerij. But a well thought through breeding system can speed up the progress of improving your stud. Maar een goed doordacht systeem voor het fokken kan versnellen van de voortgang van het verbeteren van uw kater.
+
+There are no guarantees. Er zijn geen garanties. These are just theoretical thoughts based on statistical calculations. Dit zijn slechts theoretische gedachten op basis van statistische berekeningen. The only proof is in the eating the pudding. Het enige bewijs is in de het eten van de pudding. But nevertheless these can be used as guidelines. Maar toch deze kunnen worden gebruikt als richtlijnen.
+Quadrants Kwadranten
+
+The extremes of both aspects can be combined into four quadrants. De extremen van beide aspecten kunnen worden gecombineerd in vier kwadranten. Since there are two parents to each pair you would actually need a three dimensional representation (inbreeding father, inbreeding mother, relationship parents), but for simplisity I've combined the inbreeding of both parents into one dimension resulting in a nice two dimensional picture. Aangezien er twee ouders om elk paar zou je eigenlijk behoefte aan een drie-dimensionale representatie (inteelt vader, moeder inteelt, relatie ouders), maar voor simplisity ik heb samen de inteelt van beide ouders in een dimensie die voortvloeit in een mooie twee-dimensionale beeld.
+
+           Inbred parents Inteelt ouders
+              ^ ^
+           Q2 | Q1 Q2 | Q1
+Unrelated ----+----> Related parents Onafhankelijke ----+----> gerelateerde ouders
+           Q3 | Q4 Q3 | Q4
+              | |
+           Non Inbred parents Niet Ingeteelde ouders
+
+Picture 1 : The combinations of inbred (I) / non inbred (N) parents that are related (R) or unrelated (U). Afbeelding 1: De combinaties van inteelt (I) / niet inteelt (N) ouders die zijn gerelateerd (R) of niet-verbonden (U).
+
+All quadrants can be useful but some, like Q2 and Q4, are more useful then others. Alle kwadranten kan handig zijn maar sommige, zoals Q2 en Q4, nuttiger zijn dan anderen. You have to jump through different quadrants at the right time. Je moet via verschillende kwadranten springen op het juiste moment. Some quadrants are good at fortifying existing traits others at introducing new traits. Sommige kwadranten zijn goed in het versterken van bestaande eigenschappen anderen op de invoering van nieuwe eigenschappen.
+
+I'll now go over each of these quadrants individually. Ik zal nu afzonderlijk gaan over elk van deze kwadranten.
+Q1: Inbred parents mated related Q1: Ingeteelde ouders gedekt behorend
+
+This is obvious the most inbred you can go. Dit is duidelijk de meest ingeteelde je kunt gaan. Extracting the consequences from Table 1: Extractie van de gevolgen van Tabel 1:
+
+    * Double up on good & bad traits Dubbelklik op een goede en slechte eigenschappen
+    * Uniform & predictable offspring Uniform en voorspelbare nakomelingen
+    * offspring breeds trough nakomelingen rassen trog 
+
+So basically this is creating more of the same. Dus in principe is dit het creëren van meer van hetzelfde. This can be necessary when you for instance have one exceptionally good inbred cock. Dit kan nodig zijn wanneer u bijvoorbeeld over een uitzonderlijk goede ingeteelde doffer. Then you probably want to mate this cock to a related birds in order to create more exceptional birds. Dan wilt u waarschijnlijk te paren deze doffer aan een verbonden vogels om meer bijzondere vogels te creëren.
+
+Having both parents inbred and related is not a good idea. Met beide ouders inteelt en aanverwante is geen goed idee. If you have multiple related and inbred birds you probably want to visit the opposite quadrant Q2. Als u meerdere verwante en inteelt vogels wilt u waarschijnlijk het tegenovergestelde kwadrant Q2 te bezoeken.
+Example: Use with an exceptional outcross Voorbeeld: Gebruik in combinatie met een uitzonderlijk outcross
+
+If that exceptionally good inbred cock is an outcross in the first year you mate it unrelated (because you don't have any close related birds). Als dat uitzonderlijk goed ingeteelde doffer is een outcross in het eerste jaar je partner het niet-verbonden (omdat je geen nauw verwante vogels). The following year it is paired back to its daughters. Het volgende jaar is gekoppeld terug naar zijn dochters. This is in effect a Q1/Q4 combination. Dit is in feite een Q1/Q4 combinatie.
+
+I've personally done this with great success. Ik heb persoonlijk dit gedaan met groot succes. To be fair, I've also done this with outcrosses that didn't produce anything useful. Om eerlijk te zijn heb ik ook gedaan met kruisingen die niet produceren iets nuttigs. In this case the only thing you can do is get rid of all the inbred offspring. In dit geval het enige wat je kan doen is zich te ontdoen van alle ingeteelde nakomelingen.
+
+It is a calculated risk and if it works out you're left with a line of excellent birds. Het is een berekend risico en als het lukt je achter met een lijn van uitstekende vogels. The problem is that you are left with all inbred and closely related birds, so you'll need to go to an opposite quadrant next. Het probleem is dat u nog met alle inteelt en nauw verwante vogels, dus je zult moeten gaan naar een tegenovergestelde kwadrant volgende.
+Q2: Inbred parents mated unrelated Q2: Ingeteelde ouders gedekt niets
+
+This is really combining two inbred lines. Dit is echt een combinatie van twee ingeteelde stammen. Extracting the consequences from Table 1: Extractie van de gevolgen van Tabel 1:
+
+    * Diluted genes Verdund genen
+    * Bring in new genes Het werven van nieuwe genen
+    * Uniform offspring Uniforme nakomelingen
+    * Every trait gets passed, though it can be hidden Elke eigenschap wordt doorgegeven, maar het kan worden verborgen 
+
+The offspring will be fairly uniform. De nakomelingen zullen tamelijk uniform. Every good traits gets passed, but it could be hidden in the offspring. Elke goede eigenschappen wordt doorgegeven, maar het kan worden verborgen in de nakomelingen. So the quality of this offspring could be disappointing. Dus de kwaliteit van deze nakomelingen kan worden teleurstellend. However since every trait gets passed they may still be very useful in the breeding cage when mated back to on of the two parent lines (see Q1). Maar sinds elke eigenschap wordt doorgegeven kunnen zij nog steeds zeer nuttig zijn in de broedkooi wanneer gedekt terug naar een van de twee bovenliggende lijnen (zie Q1).
+Example: Introduce a new trait in your stud Voorbeeld: Introduceer een nieuwe eigenschap in uw stud
+
+The best way to introduce a new trait in your stud is to get an outcross that is inbred for that trait. De beste manier om een ​​nieuwe eigenschap in uw kater te introduceren is om een ​​outcross dat is ingeteeld voor die eigenschap. You will want to mate it to birds of your own that breed trough for their traits (ie are inbred). Wil je stuurman om de vogels van je eigen ras, dat via hun eigenschappen (dwz inteelt). The results may in the first year be disappointing. De resultaten kunnen worden in het eerste jaar teleurstellend. See Q1 on how to progress from here. Zie Q1 over de wijze waarop de voortgang van hier.
+Q4: Non inbred parents mated related Q4: Niet inteelt ouders gedekt behorend
+
+This is a way of trying to strengthening the characteristics of an non inbred individual. Dit is een manier om te proberen aan de versterking van de kenmerken van een niet inteelt. Extracting the consequences from Table 1: Extractie van de gevolgen van Tabel 1:
+
+    * Doubles up on genes Dubbelspel op genen
+    * Recombines traits Recombineert eigenschappen
+    * A lot of variation in the offspring Een veel variatie in de nakomelingen 
+
+The creation of a lot of variation in the offspring with differently combined traits. De oprichting van een veel variatie in de nakomelingen met verschillend gecombineerde eigenschappen. As a result you'll need to cull heavily in the offspring. Als resultaat dat u zult moeten zwaar ruimen bij de nakomelingen. But you could also get that one super bird that combines all good traits. Maar je zou ook kunnen krijgen dat een super vogel die alle goede eigenschappen combineert. Such a bird would be a great start for a new line. Zoals een vogel zou een mooi begin voor een nieuwe lijn.
+
+You are really playing the numbers game: with enough offspring you'll get some very useful birds next to a lot of mediocre ones. Je bent echt het spelen van de nummers spel: met voldoende nakomelingen je krijgt een aantal zeer nuttige vogels naast een heleboel middelmatige.
+
+Given the high variation it might be useful to use one inbred parent. Gezien de hoge variant is het misschien handig om een ​​ingeteelde ouders gebruiken. Which is in effect a Q1/Q4 combination (see the example in Q1). Dat is in feite een combinatie Q1/Q4 (zie het voorbeeld in Q1).
+Example: Starting with inbreeding in order to step up Voorbeeld: Beginnend met inteelt om te intensiveren
+
+Such a pairing can be used for concentrating good traits and in that way step up the quality of your birds. Een dergelijke koppeling kan worden gebruikt voor het concentreren van goede eigenschappen en op die manier opvoeren van de kwaliteit van uw vogels. Certainly if you don't have inbred birds yet, this can be a first step in creating a line. Zeker als je nog geen inteelt vogels, kan dit een eerste stap in het creëren van een lijn.
+
+As said the variation between the offspring can be big so you may not get birds with certain faults. Zoals gezegd is de variatie tussen de nakomelingen groot kan zijn dus je kan niet vogels met bepaalde gebreken. Given that that offspring is inbred you'll need to be very careful with those faults as they will probably propagate to the offspring. Gezien het feit dat deze nakomelingen is ingeteeld moet je erg voorzichtig moet zijn met die fouten zoals ze zullen waarschijnlijk doorgeven aan het nageslacht.
+Q3: Non inbred parents mated unrelated Q3: Niet inteelt ouders gedekt niets
+
+This is the typical outbreeding scenario. Dit is de typische outbreeding scenario. Extracting the consequences from Table 1: Extractie van de gevolgen van Tabel 1:
+
+    * Dilutes traits Verdunt eigenschappen
+    * Recombines traits Recombineert eigenschappen
+    * A lot of variation in the offspring Een veel variatie in de nakomelingen 
+
+The variation in the offspring is much lower than in Q4. De variatie in het nageslacht is veel lager dan in Q4. This has to do with the fact that traits are diluted. Dit heeft te maken met het feit dat eigenschappen worden verdund.
+
+Culling will make the line only progress a little. Ruiming zal de lijn alleen vooruitgang een beetje. You really need some inbreeding to aid and reinforce the selection. Je moet echt wat inteelt op de steun en de selectie te versterken. For instance if you've got a few split blue birds in your light green stud. Bijvoorbeeld als je hebt een paar split blauwe vogels in uw licht groen stud. If you do inbreeding the blue gene will pop up sooner then when you keep inbreeding to a minimum. Als je inteelt de Blue Gene zal pop-up sneller dan wanneer je blijft inteelt tot een minimum beperkt. This helps you in selecting for or against the blue gene. Dit helpt u bij het selecteren van voor of tegen de blauwe gen. The same holds for a good (or bad) trait. Hetzelfde geldt voor een goede (of slechte) eigenschap.
+Conclusions on the four quadrants Conclusies over de vier kwadranten
+
+For inbred birds there are two quadrants that are applicable: Q1 and Q2. Voor inteelt vogels zijn er twee kwadranten die van toepassing zijn: Q1 en Q2. If the inbred bird is a super bird you might consider mating it related to strenghten its features in the stud (Q1). Als de inteelt vogel is een super vogel die je zou kunnen overwegen de paring is gerelateerd aan de functies in de stoeterij (Q1) te versterken. Preferably it is mated to a mate that is not inbred itself so it can bring in some new features. Voorkeur wordt gekoppeld aan een partner die niet is ingeteeld zichzelf zodat het kan brengen in een aantal nieuwe functies. A pure Q1 mating: Mating two inbred birds related is not recommended. Een zuivere Q1 paring: Mating twee verwante inteelt vogels wordt niet aanbevolen.
+
+Certainly for very inbred birds mating it to an unrelated bird (Q2) is the way to introduce new features into the line without loosing to much of the good traits of the line itself. Zeker voor zeer ingeteelde vogels paring aan een onverwante vogel (Q2) is de manier om nieuwe functies te introduceren in de lijn, zonder te verliezen om veel van de goede eigenschappen van de lijn zelf.
+
+Non inbred birds are preferably mated related (Q4). Niet inteelt vogels worden bij voorkeur gekoppeld gerelateerd (Q4). Mating non inbred birds unrelated will make it difficult to surface the traits and to select on them. Paring niet inteelt vogels niets zal het moeilijk maken om de eigenschappen oppervlak en te selecteren op hen. Together with a pure Q1 mating a pure Q4 mating is not recommended (though I would certainly prefer a pure Q4 mating over a pure Q1 mating). Samen met een zuivere Q1 paring een zuivere Q4 paring wordt niet aanbevolen (hoewel ik zou zeker een zuivere Q4 paring verkiezen boven een puur Q1 paring).
+
+Mating unrelated birds to produce non inbred birds is best done with inbred birds. Paring niets vogels niet inteelt vogels produceren is het beste met inteelt vogels. This way they will have both of the good genes of both parents, either visually or hidden, and will enable you to use this non inbred offspring further in the original lines. Op deze manier zullen zij zowel van de goede genen van beide ouders, hetzij visueel of verborgen, en zal u toelaten om deze niet te gebruiken ingeteelde nakomelingen verder in de originele lijnen.
+
+You could also mate unrelated birds where one parent is inbred and one parent is not inbred. Je zou ook kunnen paren verbonden vogels waar een ouder is inteelt en een ouder niet inteelt. This may be less ideal, but if the non inbred mate fits better you should really go for this. Dit kan minder ideaal, maar als het niet inteelt stuurman beter past moet je echt gaan voor dit. As I said a good selection is of the parents is more important then the mating system. Zoals ik al zei een goede selectie is van de ouders is belangrijker dan de paring systeem.
+
+When mating related birds at least one of the parents must be non inbred. Tijdens de paring gerelateerde vogels ten minste een van de ouders moeten niet inteelt te worden. Preferably the other parent is inbred, but if you want to recombine the genes the other parent must also be non inbred. Bij voorkeur is de andere ouder is inteelt, maar als je wilt recombineren de genen van de andere ouder moet ook niet inteelt.
+
+The conclusion is that you have to balance inbreeding and mating related against each other. De conclusie is dat je inteelt en paring verwanten tegen elkaar in evenwicht.
+Fertility and Fitness Vruchtbaarheid en Fitness
+
+I haven't talked about an often mentioned side effect of inbreeding and mating related: loss of fertility, loss of fitness, ... Ik heb niet gesproken over een vaak genoemd neveneffect van inteelt en paring related: verlies van vruchtbaarheid, verlies van fitness, ... This is part of what is called inbreeding depression. Dit is een onderdeel van wat genoemd wordt inteelt depressie.
+
+There have been many studies that look at the influence of inbreeding. Er zijn veel studies die kijken naar de invloed van inteelt. There is an excellent book written about these studies: The Natural History of Inbreeding and Outbreeding (ed. Nancy Wilmsen Thornhill). Er is een uitstekend boek geschreven over deze studies: de natuurlijke historie van Inteelt en Outbreeding (red. Nancy Wilmsen Thornhill). It is not a book for the layman, so I'll try to touch upon the most important points raised in this book. Het is niet een boek voor de leek, dus ik zal proberen aan te raken op de belangrijkste punten die in dit boek. The book is mostly about wild populations, but also talks about 'laboratory' experiments and zoo experiences. Het boek gaat vooral over wilde populaties, maar ook gesproken over 'laboratorium' experimenten en de dierentuin ervaringen.
+
+First up a whole lot of studies about the effects of inbreeding just seem to be done badly. Eerst een heleboel studies over de effecten van inteelt lijken gewoon slecht gedaan worden. There seems to be some confusion on the definition of the term inbreeding, but the biggest error in a lot of those studies was to assume that pairs with unknown pedigree are unrelated. Er lijkt enige verwarring over de definitie van de term inteelt, maar de grootste fout in veel van deze studies was om te veronderstellen dat paren met onbekende afstamming verbonden zijn.
+
+Secondly the interpretation of the results seems to be difficult at times. In de tweede plaats de interpretatie van de resultaten lijkt moeilijk op keer. A study done on the bison in zoos first seemed to point to a significant decline in fertility because of inbreeding. Een studie gedaan naar de bizon in dierentuinen in eerste instantie leek te wijzen op een significante daling van de vruchtbaarheid als gevolg van inteelt. Further examination of the data revealed that the lower fertility could all be traced back to one bull that turned out te be from a different subspecies. Nadere bestudering van de gegevens bleek dat de lagere vruchtbaarheid kunnen allemaal terug te voeren op een stier dat bleek te zijn van een andere ondersoort. So the perceived inbreeding depression was actually outbreeding depression: compare it to the hybrid mule that is infertile. Dus de gepercipieerde inteeltdepressie was eigenlijk outbreeding depressie: vergelijk het met de hybride muilezel die onvruchtbaar is.
+
+A very nice study covering several years was done on the wild blue tit in Holland. Een erg leuke studie voor een aantal jaren werd gedaan op de wilde pimpelmees in Nederland. Following the population several years is essential for knowing the pedigrees. Naar aanleiding van de bevolking een aantal jaren is essentieel voor het kennen van de stambomen. But also for something else: Pairs of related parents produced significantly less offspring then non related pairs. Maar ook voor iets anders: Paren van verwante ouders geproduceerd aanzienlijk minder nakomelingen dan niet gerelateerd paren. This seems to prove the inbreeding depression. Dit lijkt te bewijzen dat de inteelt depressie. But these related pairs had twice, yes twice!, as many grand children then the non related pairs. Maar deze betroffen paren hadden twee keer, ja twee keer!, Zoveel kleinkinderen dan is het niet gerelateerd paren. So their inbred offspring seemed very fertile and fit for producing offspring. Dus hun inteelt nakomelingen leek erg vruchtbaar en geschikt voor het produceren van nageslacht. It is being compared with investing in only a few chicks, giving each chick individually more attention as opposed to investing in quantity. Het wordt vergeleken met het beleggen in slechts een paar kuikens, waardoor elke chick individueel meer aandacht, in tegenstelling tot het investeren in kwantiteit.
+
+It is unclear how this study about the wild blue tit is relevant to captive exhibition budgerigars, but it shows that inbreeding effects are a complicated matter. Het is onduidelijk hoe deze studie over de wilde pimpelmees relevant is in gevangenschap levende tentoonstelling grasparkieten, maar het toont dat inteelt effecten zijn een ingewikkelde materie.
+
+Tests with various captive species (including budgerigars) specifically designed to investigate the effects of inbreeding have had mixed results: Some show some negative influence on fertility, other don't see any. Tests met verschillende soorten in gevangenschap (met inbegrip van grasparkieten) specifiek ontworpen om de gevolgen van inteelt hebben gemengde resultaten te onderzoeken: Sommige tonen enkele negatieve invloed op de vruchtbaarheid, andere zie geen. The conclusion is that inbreeding can have a negative effect on fertility, but it doesn't necessarily have to. De conclusie is dat inteelt kan een negatief effect op de vruchtbaarheid, maar het hoeft niet perse hoeft te doen.
+
+In the end the conclusion of The Natural History of Inbreeding and Outbreeding was: it's inconclusive. Op het einde van de sluiting van de natuurlijke geschiedenis van Inteelt en Outbreeding was: het is niet overtuigend.
+
+A statistical analysis of breeding records of several zoo species showed an overall negative effect of the kinship of the parents on the fertility(*) of a pair (). Een statistische analyse van de fokkerij records van verschillende soorten dierentuin liet een totale negatieve effect van de verwantschap van de ouders op de vruchtbaarheid (*) van een paar (). Using inbred females also seemed to be bad for fertility. Met behulp van inteelt vrouwtjes bleek ook slecht voor de vruchtbaarheid. But inbreeding further up the pedigree seems to have a slightly good influence on fertility. Maar inteelt verder omhoog het stamboek lijkt te hebben een enigszins goede invloed op de vruchtbaarheid. This is attributed to purging. Dit wordt toegeschreven aan ontluchten. Purging means that by inbreeding a gene bad for fertility is doubled up and subsequently culled because it creates infertility. Zuivering betekent dat door inteelt een gen slecht voor de vruchtbaarheid is verdubbeld en vervolgens afgemaakt, omdat het zorgt voor onvruchtbaarheid. The left over individuals in further generation consequently suffer less from this bad gene because of this culling. De overgebleven mensen in de verdere generatie daardoor minder last van deze slechte gen als gevolg van deze ruiming.
+
+An important note on this last study is that the effect of differences between species, breeding years and zoos each was far more important then the effect of inbreeding. Een belangrijke opmerking over deze laatste studie is dat het gevolg van verschillen tussen soorten, fokjaren en dierentuinen elke was toen veel belangrijker het effect van inteelt. There are also some other issues with the data but the conclusion is still interesting. Er zijn ook enkele andere problemen met de gegevens, maar de conclusie is nog steeds interessant.
+
+Crossing different species is even a clear examples of the opposite of hybrid vigor: oubreeding depression. Crossing verschillende soorten is zelfs een duidelijke voorbeelden van het tegenovergestelde van hybride kracht: oubreeding depressie. Just think about the infertile mule. Denk maar aan de onvruchtbare muilezel.
+Conclusions Conclusies
+
+First I want to repeat what I said earlier: A good selection of the breeding team is far more important than any breeding system. Allereerst wil ik herhalen wat ik al eerder zei: Een goede selectie van de veredeling team is veel belangrijker dan welke fokkerij.
+
+Giving some thought on pairings based on inbreeding and kinship next to the visual compatibility can speed up the progress of improving your stud. Het geven van nadenken over de paringen op basis van inteelt en verwantschap naast de visuele compatibiliteit kan versnellen van de voortgang van het verbeteren van uw kater. Balancing inbreeding and kinship in pairs against each other certainly has its role in a well thought out breeding system. Balanceren inteelt en verwantschap in tweetallen tegen elkaar heeft zeker haar rol in een goed doordacht systeem voor het fokken.
+
+On the other hand you just can't dismiss inbreeding depression. Aan de andere kant kun je niet ontslaan inteelt depressie. So you'll need to consider that too to some extend when pairing up. Dus je zult moeten overwegen dat te tot op zekere hoogte bij het koppelen van je. This is also one of the reasons why I prefer a pure Q4 mating over a pure Q1 mating. Dit is ook een van de redenen waarom ik een pure Q4 paring verkiezen boven een puur Q1 paring.
+
+Note however that inbreeding and kinship is a continuum from 0% to 100% and not a black and white feature: It is all relative. Merk echter op dat inteelt en verwantschap is een continuüm van 0% tot 100% en niet een zwart-wit functie: Het is allemaal relatief.
+
+Note : You dan find an article on calculating the inbreeding coefficient here (the kinship of two birds is the inbreeding coefficient of theoretical offspring from those birds). Opmerking: U Dan vind je een artikel over de berekening van het inteeltcoëfficiënt hier (de verwantschap van de twee vogels is het inteeltcoëfficiënt van de theoretische nakomelingen van deze vogels). 
